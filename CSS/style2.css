@@ -1,0 +1,112 @@
+/* 最初に書くやつ　*/
+@charset "UTF-8";
+
+/*全てのウェブページに適用される*/
+html {
+    font-family: serif;
+}
+
+html * {
+    box-sizing: border-box;  /* ボックスの中の幅や高さをボーダー領域にする効果
+　　通常はコンテンツ領域に成る。
+　　レスポンシブデザインの際に必要 */
+}
+body {
+    background-color: #eeece9;
+    height: 100%;
+}
+
+.wrapper {
+    margin: 0 auto 0 auto;
+    max-width: 960px;  /* 最大幅を決めることでスマホ版に対応しやすい
+　　横長になりすぎないデザインが作れる */
+}
+h2 {
+    color: #3f5170;
+    font-size: 22px;
+    border-bottom: 3px dashed #3f5170;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+p {
+    line-height: 1.6;   /*行間の調整を行う */
+}
+a:link {
+    color: #d25833;
+}
+a:visited {
+    color: #d25833;
+}
+a:hover {
+    color: #e3937a;
+}
+a:active {
+    color: #ff6a3b;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* index.html */
+.logo {
+    float: left;
+    width: 200px;  /* 横幅を200pxに */
+}
+.header-right  li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 30px;
+    clear: both;
+}
+.header-left li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 30px;
+    
+}
+.title {
+    color: #ff6a3b;
+}
+
+main {
+    padding: 0 30px;
+}
+
+.entry {
+    border: solid;
+}
+.entry2 {
+    border: solid;
+    width: 350px;
+    
+}
+.entry-button {
+    
+}
+.entry-sheet {
+    border: solid;
+    
+}
+/*entry.html */
+select {
+    width: 30em;
+}
+input[name="subject"] {
+    width: 30em;
+}
+textarea {
+    width: 30em;
+    height: 6em;
+}
+input[type="submit"] {
+    margin: 20px 0;
+    width: 30em;
+}
+   
