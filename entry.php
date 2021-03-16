@@ -32,14 +32,14 @@
 require_once "functions.php";
 $entry = $_POST;
 var_dump($entry);
-$highschool = "出身高校：" . $entry["highschool"];
-$yearmonth1 = "入学年月：" . $entry["year1"] . "年" . $entry["month1"]. "月";
-$yearmonth2 = "卒業年月：" . $entry["year2"] . "年" . $entry["month2"]. "月";
-$univercity = "出身大学：" . $entry["univercity"];
-$yearmonth3 = "入学年月：" . $entry["year3"] . "年" . $entry["month3"]. "月";
-$yearmonth4 = "卒業年月：" . $entry["year4"] . "年" . $entry["month4"]. "月";
-$know = "知ったきっかけ：" . $entry["know"];
-$reason = "志望理由：" . $entry["reason"];
+$highschool = "出身高校：" . str2html($entry["highschool"]);
+$yearmonth1 = "入学年月：" . str2html($entry["year1"]) . "年" . str2html($entry["month1"]). "月";
+$yearmonth2 = "卒業年月：" . str2html($entry["year2"]) . "年" . str2html($entry["month2"]). "月";
+$univercity = "出身大学：" . str2html($entry["univercity"]);
+$yearmonth3 = "入学年月：" . str2html($entry["year3"]) . "年" . str2html($entry["month3"]). "月";
+$yearmonth4 = "卒業年月：" . str2html($entry["year4"]) . "年" . str2html($entry["month4"]). "月";
+$know = "知ったきっかけ：" . str2html($entry["know"]);
+$reason = "志望理由：" . str2html($entry["reason"]);
 
 $entryseet = <<<EOT
             <main>
