@@ -14,6 +14,7 @@ html * {
 body {
     background-color: #eeece9;
     height: 100%;
+    margin-left: 20px;
 }
 
 .wrapper {
@@ -80,10 +81,10 @@ main {
 }
 
 .entry {
-    border: solid;
+    
 }
 .entry2 {
-    border: solid;
+
     width: 350px;
     
 }
@@ -91,14 +92,17 @@ main {
     
 }
 .entry-sheet {
-    border: solid;
+    
     
 }
 /*entry.html */
 select {
-    width: 30em;
+    width: 6em;
 }
-input[name="subject"] {
+input[type="text"] {
+    width: 22em;
+}
+input[type="subject"] {
     width: 30em;
 }
 textarea {
