@@ -39,16 +39,16 @@ p {
     line-height: 1.6;   /*行間の調整を行う */
 }
 a:link {
-    color: #d25833;
+    color: #3e33d2;
 }
 a:visited {
-    color: #d25833;
+    color: #c533d2;
 }
 a:hover {
-    color: #e3937a;
+    color: #3398d2;
 }
 a:active {
-    color: #ff6a3b;
+    color: #33d23b;
 }
 img {
     max-width: 100%;
@@ -59,18 +59,30 @@ img {
 .logo {
     float: left;
     width: 200px;  /* 横幅を200pxに */
+    padding: 20px 0;
+    background-color: aquamarine;
 }
 .header-right  li {
     display: inline;
     list-style-type: none;
     padding-right: 30px;
     clear: both;
+    border: #3f5170;
+    margin-left: 30px;
 }
 .header-left li {
     display: inline;
     list-style-type: none;
     padding-right: 30px;
-    
+    border: #3f5170;
+}
+.top_entry {
+    margin-top: 85px;
+    display: flex;
+    list-style-type: none;
+    padding: 10px 10px 30px 20px;
+    border: #3f5170;
+    background-color: #43758541;
 }
 .title {
     color: #ff6a3b;

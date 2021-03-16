@@ -21,7 +21,7 @@
                     </ul>
                 </div>
                 <div>
-                    <ul>
+                    <ul class="top_entry">
                         <li><a href="index.html">トップページ</a></li>
                         <li><a href="entry.html">> エントリーシート</a></li>
                     </ul>
@@ -31,7 +31,6 @@
 <?php
 require_once "functions.php";
 $entry = $_POST;
-var_dump($entry);
 $highschool = "出身高校：" . str2html($entry["highschool"]);
 $yearmonth1 = "入学年月：" . str2html($entry["year1"]) . "年" . str2html($entry["month1"]). "月";
 $yearmonth2 = "卒業年月：" . str2html($entry["year2"]) . "年" . str2html($entry["month2"]). "月";
